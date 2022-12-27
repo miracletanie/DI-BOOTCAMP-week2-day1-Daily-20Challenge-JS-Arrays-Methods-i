@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    const fruit =["Banana","Apples","orange","Blueberries"];
+    const elementsupprimer = fruit.splice(0,1)
+    console.log(fruit);
+
+    fruit.sort();
+    console.log(fruit);
+
+     const F= fruit.push("Kiwi");
+
+    let AppleIndex = fruit.indexOf("Apples");
+    if (AppleIndex !== -1) {
+    fruit.splice(AppleIndex, 1);
+}
+
+    console.log(fruit);
+
+    fruit.reverse();
+
+    console.log(fruit);
+  </script>  
+    
+</body>
+</html>
